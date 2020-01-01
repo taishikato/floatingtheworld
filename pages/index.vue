@@ -1,30 +1,20 @@
 <template>
   <div>
     <cloud />
-    <div class="container mx-auto">
-      <h1 class="text-6xl text-center font-black antialiased">
+    <div class="container mx-auto px-4">
+      <h1 class="text-6xl text-center font-black antialiased text-gray-100">
         Floating The World
       </h1>
-      <h2 class="font-sans text-4xl text-center font-medium antialiased">
+      <h2 class="font-sans text-4xl text-center font-medium antialiased text-gray-100">
         Trackmaker based in Vancouver
       </h2>
-      <spotify />
-      <sound-cloud />
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-1/2 my-3">
+          <spotify />
+        </div>
+        <div class="w-full lg:w-1/2 my-3">
+          <sound-cloud />
+        </div>
       </div>
     </div>
   </div>

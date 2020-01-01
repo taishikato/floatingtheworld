@@ -1,5 +1,5 @@
 <template>
-<div id="cloud" class="bg-blue-300">
+<div id="cloud">
     <div class="cloud large cloud-1">
       <div></div><div></div><div></div><div></div>
     </div>
