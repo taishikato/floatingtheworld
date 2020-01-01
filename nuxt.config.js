@@ -1,16 +1,51 @@
+const title = 'Floating The World - Trackmaker based in Vancouver'
+const url = 'https://floatingtheworld.com'
+const description = 'Hi, I am Floating The World, a trackmaker based in Vancouver.'
 
 export default {
-  // mode: 'universal',
-  mode: 'spa',
+  mode: 'universal',
+  // mode: 'spa',
   /*
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: description },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'hiphop,trackmaker,music,trap,beat,beats,ableton live'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: title
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: title
+      },
+      { hid: 'og:url', property: 'og:url', content: url },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${url}/ogimage.png`
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

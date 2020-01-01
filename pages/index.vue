@@ -1,13 +1,15 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        ntw
+  <div>
+    <cloud />
+    <div class="container mx-auto">
+      <h1 class="text-6xl text-center font-black antialiased">
+        Floating The World
       </h1>
-      <h2 class="subtitle">
-        My well-made Nuxt.js project
+      <h2 class="font-sans text-4xl text-center font-medium antialiased">
+        Trackmaker based in Vancouver
       </h2>
+      <spotify />
+      <sound-cloud />
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -29,11 +31,15 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Cloud from '~/components/Cloud'
+import Spotify from '~/components/Spotify'
+import SoundCloud from '~/components/SoundCloud'
 
 export default {
   components: {
-    Logo
+    Cloud,
+    Spotify,
+    SoundCloud
   }
 }
 </script>
@@ -44,7 +50,7 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -73,5 +79,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>
