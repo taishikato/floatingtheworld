@@ -3,9 +3,8 @@
     <cloud />
     <div class="container mx-auto px-4">
       <h1 class="text-6xl text-center font-black antialiased text-gray-100">
-        <!-- Floating The World -->
-
-        <svg viewbox="0 0 100 20">
+        Floating The World
+        <!-- <svg viewbox="0 0 100 20">
           <defs>
             <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
               <stop offset="5%" stop-color="#ffffff" />
@@ -36,7 +35,7 @@
             text-anchor="middle"
             x="50"
             y="15"
-            font-size="10"
+            font-size="12px"
             fill="url(#wave)"
             fill-opacity="1"
           >
@@ -46,13 +45,13 @@
             text-anchor="middle"
             x="50"
             y="15"
-            font-size="10"
+            font-size="12px"
             fill="url(#gradient)"
             fill-opacity="0.5"
           >
             Floating The World
           </text>
-        </svg>
+        </svg> -->
       </h1>
       <h2 class="font-sans text-4xl text-center font-medium antialiased text-gray-100">
         Trackmaker based in Vancouver
