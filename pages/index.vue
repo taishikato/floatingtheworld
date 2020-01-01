@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-blue-300">
     <cloud />
     <div class="container mx-auto px-4">
       <h1 class="text-6xl text-center font-black antialiased text-gray-100">
