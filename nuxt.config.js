@@ -83,7 +83,10 @@ export default {
   */
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-27648393-28'
+    }]
   ],
   sitemap: {
     path: '/sitemap.xml',

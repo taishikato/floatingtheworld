@@ -12,6 +12,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.2",
     "@nuxtjs/pwa": "^2.6.0",
     "@nuxtjs/sitemap": "^2.0.1",
     "compass-mixins": "^0.12.10",
