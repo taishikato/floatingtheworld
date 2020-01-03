@@ -82,8 +82,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://floatingtheworld.com'
+  },
   /*
   ** Build configuration
   */
